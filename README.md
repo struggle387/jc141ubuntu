@@ -16,7 +16,7 @@ This Bash script automates the setup of the jc141 environment on Ubuntu 25.04, i
 - Cleans up temporary files after installation.
 - Fixes AppArmor permissions for `fusermount3`.
 
-## SETUP GUIDE WITH IMAGES ##
+## SETUP GUIDE WITH IMAGES (for noobs) ##
 
 ## Download ZIP ##
  <img width="653" height="473" alt="Screenshot From 2025-07-10 20-15-42" src="https://github.com/user-attachments/assets/f623ca25-fd7c-4280-ab2c-02e42fe40655" />
@@ -27,14 +27,13 @@ This Bash script automates the setup of the jc141 environment on Ubuntu 25.04, i
 ## Double left click jc141ubuntu folder ## 
 <img width="653" height="473" alt="Screenshot From 2025-07-10 20-16-49" src="https://github.com/user-attachments/assets/03e5f35a-fdc5-412c-bd7a-3c9a6b1cbc1a" />
 
-## Right click start.sh and left click "Properties" on the bottom of the right click menu ##
+## Right click start.sh and left click "Properties" on the bottom of the menu ##
 <img width="727" height="588" alt="Screenshot From 2025-07-10 20-17-13" src="https://github.com/user-attachments/assets/5df59213-74ef-46b8-b7bc-6263db9c27c7" />
 
 ## Left click and enable 'Executable as program'
 <img width="489" height="703" alt="Screenshot From 2025-07-10 20-18-17" src="https://github.com/user-attachments/assets/96824f5c-a73c-476b-884d-77a7fee0277d" />
 
-
-## Right click start.sh and left click "Properties" on the bottom of the right click menu ##
+## Right click start.sh and left click "Properties" on the bottom of the menu ##
 <img width="727" height="588" alt="Screenshot From 2025-07-10 20-17-13" src="https://github.com/user-attachments/assets/92294d6e-2093-4898-a3d3-93daeafa9cf2" />
 
 ## Left click "Run as a Program"
