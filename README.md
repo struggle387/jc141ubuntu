@@ -11,7 +11,7 @@ This Bash script automates the setup of the jc141 environment on Ubuntu 25.04, i
 
 - Copies the `.jc141rc` configuration file to the user's home directory with bubblewrap fixes (if there are any issues head to https://gitlab.com/jc141x/setup/-/blob/main/generic.md)
 - Checks for Wine installation and installs WineHQ staging if not present.
-- Installs jc141 and Dwarfs dependencies using `apt`.
+- Installs jc141 and Dwarfs dependencies
 - Downloads, builds, and installs Dwarfs (v0.12.4) with Ninja and CMake.
 - Cleans up temporary files after installation.
 - Fixes AppArmor permissions for `fusermount3`.
