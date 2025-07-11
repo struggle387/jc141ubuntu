@@ -1,0 +1,44 @@
+# this config is used by jc141 start scripts to specify default settings.
+# these settings are applied globally, unless overridden by the game-specific config located beside the launch scripts
+
+# automatically unmounts game files after the process ends
+UNMOUNT=1
+
+# extract game files instead of mounting the dwarfs archive on launch
+EXTRACT=1
+
+# display terminal output
+TERMINAL_OUTPUT=1
+
+# wine executable path
+SYSWINE="$(command -v wine)"
+
+
+# bubblewrap
+
+# force games into isolation sandbox
+ISOLATE=0
+
+# block network access to the game. Does not work if ISOLATE=0.
+BLOCK_NET=1
+
+# sandbox directory path for isolation. (stores wine prefix, game saves, etc..)
+# only used when ISOLATE=1 for native games. the path is used regardless for the wine prefix
+JC_DIRECTORY="$HOME/Games/jc141"
+
+
+# gamescope
+GAMESCOPE=1
+GAMESCOPE_FULLSCREEN=1
+GAMESCOPE_BORDERLESS=0
+
+# output resolution
+GAMESCOPE_SCREEN_WIDTH=
+GAMESCOPE_SCREEN_HEIGHT=
+
+# game resolution
+GAMESCOPE_GAME_WIDTH=
+GAMESCOPE_GAME_HEIGHT=
+
+# additional flags (run "gamescope --help" for options)
+ADDITIONAL_FLAGS=""
