@@ -1,6 +1,5 @@
-## DEPRECATED DO NOT USE ##
-## USE DISTROBOX INSTEAD ##
-
+### DEPRECATED DO NOT USE 
+### USE DISTROBOX INSTEAD 
 
 ## jc141 Installation Script  ## 
 Created this script to be a noob friendly script for a friend to get started with jc141 repacks (ubuntu 25.04). 
