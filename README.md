@@ -1,4 +1,8 @@
-## jc141 Installation Script  ##
+## DEPRECATED DO NOT USE ##
+## USE DISTROBOX INSTEAD ##
+
+
+## jc141 Installation Script  ## 
 Created this script to be a noob friendly script for a friend to get started with jc141 repacks (ubuntu 25.04). 
 This Bash script automates the setup of the jc141 environment on Ubuntu 25.04, including installing Wine (if needed), required dependencies, and the Dwarfs filesystem. It also configures necessary permissions for `fusermount3` with app armor. Additonal infomation about general fixes for ubuntu or other debian based distros can be found at https://gitlab.com/jc141x/setup/-/blob/main/generic.md.
 
