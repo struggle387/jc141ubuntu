@@ -33,4 +33,8 @@ sudo ninja install
 cd ../../
 rm -rf dwarfs-0.12.4.tar.xz dwarfs-0.12.4/
 
+## WORKAROUND WILL MAKE A BETTER FIX LATER Fix AppArmor permissions for fusermount3 ##
+sudo chown root:root $(which fusermount3)
+sudo chmod u+s $(which fusermount3)
+
 echo "Installation and setup completed. "
